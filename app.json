@@ -294,7 +294,7 @@
 
             "required": false,
 
-            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.menu\ z* ```for commands```"
+            "value": "\n ```I Am Alive !!!```\n\n```Type``` *.menu➢.z* ```for commands```"
 
         },
 
