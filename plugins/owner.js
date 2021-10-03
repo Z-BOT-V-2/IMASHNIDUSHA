@@ -4,7 +4,7 @@ const Config = require('../config');
 
 if (Config.WORKTYPE == 'private') {
 
-    Julie.addCommand({pattern: 'o', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
+    Julie.addCommand({pattern: 'ow', fromMe: true, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
         if (message.jid === '15369524516-1612300121@g.us') {
 
@@ -20,7 +20,7 @@ if (Config.WORKTYPE == 'private') {
     }));
 }
 
-else if (Config.WORKTYPE == 'public') {
+else if (Config.WORKTYPE == 'ow') {
 
     Julie.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
