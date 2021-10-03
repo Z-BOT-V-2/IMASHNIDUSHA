@@ -1,7 +1,7 @@
 FROM fusuf/whatsasena:latest
 
-RUN git clone https://github.com/COOL1BOT1/IMASH-Z-BOT-2 /root/IMASH-Z-BOT-2
-WORKDIR /root/IMASH-Z-BOT-2/
+RUN git clone https://github.com/Z-BOT-V-2/IMASHNIDUSHA /root/WhatsAsenaDuplicated/
+WORKDIR /root/WhatsAsenaDuplicated/
 ENV TZ=Europe/Istanbul
 RUN npm install supervisor -g
 RUN yarn install --no-audit
