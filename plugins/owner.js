@@ -20,7 +20,7 @@ if (Config.WORKTYPE == 'private') {
     }));
 }
 
-else if (Config.WORKTYPE == 'ow') {
+else if (Config.WORKTYPE == 'owner') {
 
     Julie.addCommand({pattern: 'owner', fromMe: false, desc: 'shows the detail of bot owner'}, (async (message, match) => {
 
