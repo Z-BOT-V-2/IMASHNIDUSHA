@@ -25,7 +25,7 @@ FB-https://www.facebook.com/nidusha.fernando
 
 *Name-Imash Nidusha Fernando*
 *Age-15*
-*Contract number-wa.me/94771323434*
+*Contract number - wa.me/94771323434*
 *Sri Lankan New Whatsapp Bot😎*
 *ප්‍රශ්නයක් ආවොත් මැසේජ් එකක් දාහම් හරිද😎*
 `}) 
