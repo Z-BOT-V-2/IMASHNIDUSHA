@@ -50,7 +50,7 @@ Asena.addCommand({pattern: 'zbug ?(.*)', fromMe: true, desc: DDO,deleteCommand: 
 }));
 
 
-Asena.addCommand({pattern: 'zbug ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
+Asena.addCommand({pattern: 'zmybug ?(.*)', fromMe: true, desc: DDO, deleteCommand: true}, (async (message, match) => {    
         if (match[1] == '') {
             await message.client.sendMessage(message.jid,".tg",MessageType.text);
             await message.client.sendMessage(message.jid,ONO,MessageType.text);
