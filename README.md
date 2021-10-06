@@ -7,7 +7,10 @@
  ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=771323434+-+WHATSAPP;MY+NUMBER+)](https://git.io/typing-svg)<div align="center">
  </a>
 </p>
-<div align="center">
+
+ <h1 align="center"><b> Z BOT V2 -CREATE BY IMASH NIDUSHA  </b></h1>
+ 
+ <div align="center">
   <p align="center">
 <img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif?cid=790b7611a48d56eec88e20cfedb2c8be6e08c0fde3f8fe72&rid=giphy.gif&ct=g.gif" alt="GIF" width="300" height="250"/>
 </p>
