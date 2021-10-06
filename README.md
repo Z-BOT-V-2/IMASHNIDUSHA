@@ -10,10 +10,9 @@
 
  <h1 align="center"><b> Z BOT V2 -CREATE BY IMASH NIDUSHA  </b></h1>
  
- <div align="center">
-  <p align="center">
-<img src="https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif?cid=790b7611a48d56eec88e20cfedb2c8be6e08c0fde3f8fe72&rid=giphy.gif&ct=g.gif" alt="GIF" width="300" height="250"/>
-</p>
+![logo](https://www.linkpicture.com/q/IMG-20210930-WA0003_8.jpg)
+
+
  
 </div>
 <p align="center">
@@ -28,10 +27,13 @@ Project created by <a href="https://github.com/cyberchekuthan">iMASH BOT</a> to 
 <div align="center">
 
   ### Simple Method
-  
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Z-BOT-V-2/IMASHNIDUSHA) 
-  
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@testGoogleall/Z-BOT-V2-CREATE-QR-V2)
+<h1 align="center"><b> මේ දම්පාට කොටුව ඔබන්න Dpeloy කිරීමට  👇 </b></h1>  
+ 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Z-BOT-V-2/IMASHNIDUSHA) 
+ 
+ <h1 align="center"><b> පලමුව මෙය ඔබා QR කේතය Scan කර ගන්න  👇 </b></h1> 
+
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@testGoogleall/Z-BOT-V2-CREATE-QR-V2)
   
 
 
@@ -39,11 +41,15 @@ Project created by <a href="https://github.com/cyberchekuthan">iMASH BOT</a> to 
 
 
 
-## 📢 Guide
-Click WA logo to Join Support Group 👇
-    <br>
+ ## 📢 Guide
+
+ <h1 align="center"><b> ඔය පහල තියෙන එක ඔබලා අපේ සපෝට් ගෲප් වලට එන්න කැමතිනම් </b></h1>
+
+ 
+
+ <br>
 <br>
-  [![join](https://github.com/Alien-alfa/PublicBot/blob/main/wlogo.svg.png)](https://chat.whatsapp.com/KmeQL6R7mBoDxxoNVMuOef)
+  (https://chat.whatsapp.com/KmeQL6R7mBoDxxoNVMuOef)
   <div align="center">
        
     
