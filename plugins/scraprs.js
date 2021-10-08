@@ -488,7 +488,17 @@ if (config.WORKTYPE == 'private') {
                 var tsts = match[1].replace('watch?v=', '')
                 var alal = tsts.split('/')[3]
                 VID = alal
-            } else {     
+            }
+          // උස්සපන් බේසික්ල පුලුවන්නම් අනුන්ගෙ ඒව බලන්න එන්නෙ ඇයි.  
+            if (match[1].includes('shorts')) {
+                var rmx = match[1].replace('shorts/', '')
+				var rmy = rmx.replace('?feature=share', '')
+                var data = rmy.split('/')[3]
+                VID = data
+            }
+            
+       //shrot video downloader added     
+            else {     
                 VID = match[1].split('/')[3]
             }
         } catch {
@@ -956,7 +966,17 @@ else if (config.WORKTYPE == 'public') {
                 var tsts = match[1].replace('watch?v=', '')
                 var alal = tsts.split('/')[3]
                 VID = alal
-            } else {     
+            }
+         // උස්සපන් බේසික්ල පුලුවන්නම් අනුන්ගෙ ඒව බලන්න එන්නෙ ඇයි.  
+            if (match[1].includes('shorts')) {
+                var rmx = match[1].replace('shorts/', '')
+				var rmy = rmx.replace('?feature=share', '')
+                var data = rmy.split('/')[3]
+                VID = data
+            }
+            
+       //shrot video downloader added     
+            else {     
                 VID = match[1].split('/')[3]
             }
         } catch {
