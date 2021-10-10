@@ -1035,7 +1035,7 @@ else if (config.WORKTYPE == 'public') {
                 writer.addTag();
 
                 
-                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: 'z Document' + '.mp3', mimetype: 'audio/mpeg', quoted: message.data});
+                await message.client.sendMessage(message.jid,Buffer.from(writer.arrayBuffer), MessageType.document, {filename: 'document  ' + '.mp3', mimetype: 'audio/mpeg', quoted: message.data});
             });
     }));
 
