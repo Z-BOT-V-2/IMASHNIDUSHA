@@ -18,7 +18,7 @@ const heroku = new Heroku({
 let baseURI = '/apps/' + Config.HEROKU.APP_NAME;
 
 
-Asena.addCommand({pattern: 'shutspam', fromMe: true, dontAddCommandList: true, desc: Lang.STOP_SPAMDESC}, (async (message, match) => {
+Asena.addCommand({pattern: 'stpspam', fromMe: true, dontAddCommandList: true, desc: Lang.STOP_SPAMDESC}, (async (message, match) => {
 
     await message.client.sendMessage(message.jid, Lang.STOP_SPAM, MessageType.text);
 
