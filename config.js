@@ -24,7 +24,7 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 
 module.exports = {
 
-    VERSION: 'v7.3.9',
+    VERSION: 'v8.3.0',
 
     CHANNEL: 'https://t.me/remasterplugin',
 
