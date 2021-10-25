@@ -249,28 +249,41 @@ ${chalk.blue.italic('Z BOT Connecting to WhatsApp🥵...')}`);
                             await whats.delete(); 
                         }
 */
+
                         try {
+
                             await command.function(whats, match);
+
                         } catch (error) {
-                            if (config.LANG == 'TR' || config.LANG == 'AZ') {
-                                await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
-                                    '\n*WhatsAsena bir hata gerçekleşti!*'+
-                                    '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
-                                    '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
-                                    '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._\n\n' +
-                                    'Gerçekleşen Hata: ' + error + '\n\n'
-                                    , MessageType.text);
+
+                            if (config.LANG == 'EN') {
+
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Whitedevil.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*Z BOT an error has occurred!*\n_I AM IMASH NIDUSHA Please Report this error\n\n*Error:* ```' + error + '```\n\n' });
+
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./White/bot/error.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
+
+                            } else if (config.LANG == 'ML') {
+
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Whitedevil.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*Whitedevil error സംഭവിച്ചു!*\n_ഈ error  ഡെവലപ്പറെ അറിയിക്കുക! [ TERROR BOY ]._\n\n*error:* ```' + error + '```\n\n' });
+
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./White/bot/error.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
+
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ Imash Nidusha ~______~*' +
-                                    '\n*🥲 bot other wise chance to get erorr:*' +
-                                    '\n\n*කළබල වෙන්න එපා සප්තරම් අවුලක් නෑ🥰 ' + error + '*\n'
-                                    , MessageType.text);
+
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Whitedevil.png"), MessageType.image, { caption: '*『 KESALAHAN 』*\n\n*Whitedevil telah terjadi kesalahan!*\n_Laporkan kesalahan ini ke pengembang [ TERROR BOY ]._\n\n*Kesalahan:* ```' + error + '```\n\n' });
+
                             }
+
                         }
+
                     }
+
                 }
+
             }
+
         )
+
     });
 
     try {
