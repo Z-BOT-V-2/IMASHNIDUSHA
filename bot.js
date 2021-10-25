@@ -258,19 +258,19 @@ ${chalk.blue.italic('Z BOT Connecting to WhatsApp🥵...')}`);
 
                             if (config.LANG == 'EN') {
 
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Whitedevil.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*Z BOT an error has occurred!*\n_I AM IMASH NIDUSHA Please Report this error\n\n*Error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./Error/zerror.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*Z BOT an error has occurred!*\n_I AM IMASH NIDUSHA Please Report this error\n\n*Error:* ```' + error + '```\n\n' });
 
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./White/bot/error.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./Error/zerror.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
 
                             } else if (config.LANG == 'ML') {
 
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Whitedevil.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*Whitedevil error സംഭവിച്ചു!*\n_ഈ error  ഡെവലപ്പറെ അറിയിക്കുക! [ TERROR BOY ]._\n\n*error:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./Error/zerror.png"), MessageType.image, { caption: '*『 ERROR 』*\n\n*Whitedevil error സംഭവിച്ചു!*\n_ഈ error  ഡെവലപ്പറെ അറിയിക്കുക! [ TERROR BOY ]._\n\n*error:* ```' + error + '```\n\n' });
 
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./White/bot/error.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./Error/zerror.mp3"), MessageType.audio, { mimetype: Mimetype.mp4Audio, ptt: true});
 
                             } else {
 
-                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./src/image/Whitedevil.png"), MessageType.image, { caption: '*『 KESALAHAN 』*\n\n*Whitedevil telah terjadi kesalahan!*\n_Laporkan kesalahan ini ke pengembang [ TERROR BOY ]._\n\n*Kesalahan:* ```' + error + '```\n\n' });
+                                await conn.sendMessage(conn.user.jid, fs.readFileSync("./Error/zerror.png"), MessageType.image, { caption: '*『 KESALAHAN 』*\n\n*Whitedevil telah terjadi kesalahan!*\n_Laporkan kesalahan ini ke pengembang [ TERROR BOY ]._\n\n*Kesalahan:* ```' + error + '```\n\n' });
 
                             }
 
