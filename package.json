@@ -1,6 +1,6 @@
 {
   "name": "zbot",
-  "version": "8.3.0",
+  "version": "8.1.1",
   "description": "Z is the Modified Version of WhatsAsena, Made By @Z-BOT999 with Baileys.",
   "main": "./zbotimash/bot.js",
   "scripts": {
