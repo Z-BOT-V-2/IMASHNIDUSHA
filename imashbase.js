@@ -14,12 +14,12 @@ const fs = require('fs');
 async function whatsAsena () {
     const conn = new WAConnection();
     const Session = new StringSession();  
-    conn.version = [2, 2119, 6]
+    conn.version = [2.2140.12]
     conn.logger.level = 'warn';
     conn.regenerateQRIntervalMs = 50000;
     
     conn.on('connecting', async () => {
-        console.log(`${chalk.green.bold('Whats')}${chalk.blue.bold('Asena')}
+        console.log(`${chalk.green.bold('Z')}${chalk.blue.bold('BOT')}
 ${chalk.white.italic('AsenaString Kodu Alıcı')}
 
 ${chalk.blue.italic('Z BOT Connecting to Whatsapp... Please Wait.')}`);
