@@ -1,6 +1,6 @@
 {
   "name": "IMASHNIDUSHA",
-  "version": "8.1.1",
+  "version": "7.3.6",
   "description": "Z is the Modified Version of WhatsAsena, Made By @Z-BOT999 with Baileys.",
   "main": "./IMASHNIDUSHA/bot.js",
   "scripts": {
@@ -25,7 +25,7 @@
   },
   "homepage": "https://github.com/Z-BOT999/IMASH-Z-BOT-2#readme",
   "dependencies": {
-    "@adiwajshing/baileys": "3.4.1",
+    "@adiwajshing/baileys": "3.5.2",
     "@lh2020/speedtest-net": "^2.1.1",
     "textmaker-thiccy": "1.2.1",
     "browser-id3-writer": "^4.4.0",
