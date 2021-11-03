@@ -33,7 +33,7 @@ Project created by <a href="https://github.com/cyberchekuthan">iMASH BOT</a> to 
  
  <h1 align="center"><b> පලමුව මෙය ඔබා QR කේතය Scan කර ගන්න  👇 </b></h1> 
 
- [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@testGoogleall/Z-BOT-V2-CREATE-QR-V2)
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@testGoogleall/Z-BOT-V2-CREATE-QR-V2-NEW)
   
 
 
