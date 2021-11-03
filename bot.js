@@ -70,7 +70,7 @@ async function whatsAsena () {
     
     
     const conn = new WAConnection();
-    conn.version = [2, 2126, 14];
+    conn.version = [3,3234,9];
     const Session = new StringSession();
 
     conn.logger.level = config.DEBUG ? 'debug' : 'warn';
@@ -136,7 +136,7 @@ ${chalk.blue.italic('Z BOT Connecting to WhatsApp🥵...')}`);
         });
 
         console.log(
-            chalk.green.bold('Z BOT IS working🥰 Created by imasb!')
+            chalk.green.bold('Z BOT IS working🥰 Created by imash!')
         );
     });
     
