@@ -37,25 +37,25 @@ if (Config.WORKTYPE == 'private') {
         var ttinullimage = await axios.get('https://api.xteam.xyz/attp?file&text=' + uri, { responseType: 'arraybuffer' })
         await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp })
     }));
-Asena.addCommand({ pattern: 'attp2 ?(.*)', fromMe: true, desc: DESC_BOB }, (async (message, match) => {
+Asena.addCommand({ pattern: '2attp ?(.*)', fromMe: true, desc: DESC_BOB }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://zekais-api.herokuapp.com/sbburn?text=${uria}&apikey=${Lol}`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
 }));
- Asena.addCommand({ pattern: 'attp3 ?(.*)', fromMe: true, desc: DESC_GURA }, (async (message, match) => {
+ Asena.addCommand({ pattern: '3attp ?(.*)', fromMe: true, desc: DESC_GURA }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/bot/gura?apikey=hardianto&nama=${uria}`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
 }));
-Asena.addCommand({ pattern: 'attp4 ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
+Asena.addCommand({ pattern: '4attp ?(.*)', fromMe: true, desc: DESC_RAND }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/harta?query=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
 }));
-Asena.addCommand({ pattern: 'attp5 ?(.*)', fromMe: true, desc: DESC_RIP }, (async (message, match) => {
+Asena.addCommand({ pattern: '5attp ?(.*)', fromMe: true, desc: DESC_RIP }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/rip?image=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
@@ -76,28 +76,28 @@ else if (Config.WORKTYPE == 'public') {
         await message.client.sendMessage(message.jid,Buffer.from(ttinullimage.data), MessageType.sticker, { mimetype: Mimetype.webp })
     }));
     
-Asena.addCommand({ pattern: 'attp2 ?(.*)', fromMe: false, desc: DESC_BOB }, (async (message, match) => {
+Asena.addCommand({ pattern: '2attp ?(.*)', fromMe: false, desc: DESC_BOB }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://zekais-api.herokuapp.com/sbburn?text=${uria}&apikey=${Lol}`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
 }));
     
-Asena.addCommand({ pattern: 'attp3 ?(.*)', fromMe: false, desc: DESC_GURA }, (async (message, match) => {
+Asena.addCommand({ pattern: '3attp ?(.*)', fromMe: false, desc: DESC_GURA }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/bot/gura?apikey=hardianto&nama=${uria}`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
 }));
     
-Asena.addCommand({ pattern: 'attp4 ?(.*)', fromMe: false, desc: DESC_RAND }, (async (message, match) => {
+Asena.addCommand({ pattern: '4attp ?(.*)', fromMe: false, desc: DESC_RAND }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/harta?query=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
 await message.client.sendMessage(message.jid,Buffer.from(ttinullimageh.data), MessageType.image)
 }));
     
-Asena.addCommand({ pattern: 'attp5 ?(.*)', fromMe: false, desc: DESC_RIP }, (async (message, match) => {
+Asena.addCommand({ pattern: '5attp ?(.*)', fromMe: false, desc: DESC_RIP }, (async (message, match) => {
 if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD, MessageType.text);
 var uria = encodeURI(match[1])
 var ttinullimageh = await axios.get(`https://hardianto-chan.herokuapp.com/api/rip?image=${uria}&apikey=hardianto`, { responseType: 'arraybuffer' })
