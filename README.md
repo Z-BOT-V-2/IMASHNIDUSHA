@@ -1,5 +1,7 @@
-
 <div align="center">
+<details>
+    <summary><b>CLICK HERE FOR MORE INFO😉</b></summary>
+    
  
  ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=3EF76A&lines=THIS+IS+IMASH+BOT;THIS+BOT+OWNER+IS+IMASH+NIDUSHA)](https://git.io/typing-svg)
 <div align="center">
