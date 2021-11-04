@@ -3,7 +3,7 @@
     <summary><b>CLICK HERE FOR MORE INFO😉</b></summary>
     
  
- ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=3EF76A&lines=THIS+IS+IMASH+BOT;THIS+BOT+OWNER+IS+IMASH+NIDUSHA)](https://git.io/typing-svg)
+ ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?color=3EF76A&lines=THIS+IS+ZED+BOT;THIS+BOT+OWNER+IS+IMASH+NIDUSHA)](https://git.io/typing-svg)
 <div align="center">
 
  ## [![Typing SVG](https://readme-typing-svg.herokuapp.com?lines=771323434+-+WHATSAPP;MY+NUMBER+)](https://git.io/typing-svg)<div align="center">
@@ -29,14 +29,15 @@ Project created by <a href="https://github.com/cyberchekuthan">iMASH BOT</a> to 
 <div align="center">
 
   ### Simple Method
-<h1 align="center"><b> මේ දම්පාට කොටුව ඔබන්න Dpeloy කිරීමට  👇 </b></h1>  
+
+ <h1 align="center"><b> පලමුව මෙය ඔබා QR කේතය Scan කර ගන්න  👇 </b></h1> 
+
+ [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@testGoogleall/NEW-QR-CODE-Z-NEW-V2-1?v=1)
+    
+  <h1 align="center"><b> දෙවනුව මෙම දම්පාට කොටුව ඔබන්න Dpeloy කිරීමට  👇 </b></h1>  
  
  [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Z-BOT-V-2/IMASHNIDUSHA) 
  
- <h1 align="center"><b> පලමුව මෙය ඔබා QR කේතය Scan කර ගන්න  👇 </b></h1> 
-
- [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@testGoogleall/Z-BOT-V2-CREATE-QR-V2-NEW)
-  
 
 
 ----
