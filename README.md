@@ -36,7 +36,7 @@ Project created by <a href="https://github.com/cyberchekuthan">iMASH BOT</a> to 
     
   <h1 align="center"><b> දෙවනුව මෙම දම්පාට කොටුව ඔබන්න Dpeloy කිරීමට  👇 </b></h1>  
  
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Z-BOT-V-2/IMASHNIDUSHA) 
+ [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Z-BOT-V-2/IMASHNIDUSHA#Test) 
  
 
 
