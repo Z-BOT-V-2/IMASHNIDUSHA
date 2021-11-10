@@ -28,6 +28,8 @@ const gis = require("g-i-s");
 const { song } = require("../Utilis/fFmpeg");
 let fm = true;
 
+if (Config.WORKTYPE == 'private') {
+
 Asena.addCommand(
   {
     pattern: "trt2 ?(.*)",
