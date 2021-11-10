@@ -6,6 +6,8 @@ const Language = require("../language");
 const Lang = Language.getString("ocr");
 const fm = true;
 
+if (Config.WORKTYPE == 'private') {
+
 Asena.addCommand(
     { pattern: "skull", fromMe: fm, dontAddCommandList: true, desc: "Skull Photo editor." },
     async (message, match) => {
