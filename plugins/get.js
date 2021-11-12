@@ -140,3 +140,22 @@ Asena.addCommand({pattern: 'get ?(.*)', fromMe: false, desc: Lang.GET_DESC}, (as
         await message.client.sendMessage(message.jid,'```' + Lang.LINK_TEXT + ' : ```'+ pallikkel +' \n ```' + Lang.NO_SPRT + '```',MessageType.text);
     }
     }));
+
+Asena.addCommand(
+  { pattern: "apk ?(.*)", fromMe: true, desc: "Download apk from apkmirror" },
+  async (message, match) => {
+    let { type, buffer, name } = await apkMirror(match);
+    if (type == "list")
+      return await message.sendMessage(buffer, {}, MessageType.listMessage);
+    else if (type == "button")
+      return await message.sendMessage(buffer, {}, MessageType.buttonsMessage);
+    else if (type == "text") return await message.sendMessage(buffer);
+    else if (buffer != false)
+      return await message.sendMessage(
+        buffer,
+        { filename: name, mimetype: type, quoted: message.data },
+        MessageType.document
+      );
+    else return await message.sendMessage("*Not found!*");
+  }
+);
