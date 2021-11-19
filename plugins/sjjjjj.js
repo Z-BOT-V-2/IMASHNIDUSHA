@@ -1007,7 +1007,7 @@ else if (config.WORKTYPE == 'public') {
 
     
     
-    Asena.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.ISONG_DESC}, (async (message, match) => { 
+    Asena.addCommand({pattern: 'song2 ?(.*)', fromMe: false, desc: Lang.ISONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
         let arama = await yts(match[1]);
