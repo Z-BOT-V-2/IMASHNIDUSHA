@@ -1,7 +1,7 @@
 /* Copyright (C) 2020 Yusuf Usta.
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
-WhatsAsena - Yusuf Usta
+WhatsAsena - Yusuf Usta*/
 
 
 const Asena = require('../events');
@@ -130,7 +130,7 @@ if (config.LANG == 'RU') {
 }
 
 
-if (config.WORKTYPE == 'private') {
+/*if (config.WORKTYPE == 'private') {
 
     Asena.addCommand({pattern: 'trt(?: |$)(\\S*) ?(\\S*)', desc: Lang.TRANSLATE_DESC, usage: Lang.TRANSLATE_USAGE, fromMe: true}, (async (message, match) => {
 
