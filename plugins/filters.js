@@ -206,3 +206,50 @@ filtreler.map(
     }
 );
 }));
+/*THANCKS FOR DEVIL
+*/
+
+Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {   
+
+        if(Config.BGMFILTER){
+        let banned = jid.find( Jid => Jid === message.jid);
+        if(banned !== undefined) return
+        if (!!message.mention && message.mention[0] == '94771323434@s.whatsapp.net') {
+await message.client.sendMessage(message.jid, fs.readFileSync('./White/video/Whitedevil.mp4'), MessageType.video, { mimetype: Mimetype.mp4Video, quoted : message.data, ptt: true})
+        }
+const array = ['imash','Imash'',menu']
+
+array.map( async (a) => {
+
+let pattern = new RegExp(`\\b${a}\\b`, 'g');
+
+if(pattern.test(message.message)){
+
+       await message.client.sendMessage(message.jid, fs.readFileSync('./White/video/' + a + '.mp4'), MessageType.video, { mimetype: Mimetype.mp4Video, quoted: message.data, ptt: true})
+
+}
+
+});
+
+    }
+
+    var filtreler = await FilterDb.getFilter(message.jid);
+    if (!filtreler) return; 
+
+    filtreler.map(
+
+        async (filter) => {
+
+            pattern = new RegExp(filter.dataValues.regex ? filter.dataValues.pattern : ('\\b(' + filter.dataValues.pattern + ')\\b'), 'gm');
+
+            if (pattern.test(message.message)) {
+
+                await message.client.sendMessage(message.jid,filter.dataValues.text, MessageType.video, {quoted: message.data});
+
+            }
+
+        }
+
+    );
+
+}));
