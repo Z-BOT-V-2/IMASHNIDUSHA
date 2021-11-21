@@ -15,7 +15,7 @@ if (Config.WORKTYPE == 'public') {
 
 Zbot.addrex({on: 'text', fromMe: false,  deleteCommand: false}, (async (message, match) => {    
   
-  let menu = new RegExp('MENU')
+  let menu = new RegExp('zmenu')
   
   if (menu.test(message.message)) {
     
@@ -775,7 +775,7 @@ else if (Config.WORKTYPE == 'private') {
   
   Zbot.addrex({on: 'text', fromMe: true,  deleteCommand: false}, (async (message, match) => {    
   
-  let menu = new RegExp('MENU')
+  let menu = new RegExp('zmenu')
   
   if (menu.test(message.message)) {
     
