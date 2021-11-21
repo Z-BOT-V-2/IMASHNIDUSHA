@@ -217,7 +217,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '94771323434@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./imashmusic/menu.mp4'), MessageType.video, { mimetype: Mimetype.mp4Video, quoted : message.data, ptt: true})
         }
-const array = ['imash','Imash'',menu','alive']
+const array = ['imash','Imash','menu','alive']
 
 array.map( async (a) => {
 
